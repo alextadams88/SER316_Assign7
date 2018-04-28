@@ -123,7 +123,7 @@ public class EventImpl implements IEvent, Comparable {
 		//d.setSeconds(0);
 		//End deprecated methods
         
-        //TASK2-1 SMELL WITHIN A CLASS
+        //TASK 2-1 SMELL WITHIN A CLASS
         //totally unnecessary code - long method, data clumps. 
         //function wants to return the current time as Date, which date ctor does automatically. 
         /*
